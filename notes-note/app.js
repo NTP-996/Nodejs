@@ -31,6 +31,7 @@ const argv = yargs
 var command = argv._[0];
 
 if (command === 'add') {
+    console.log(_.join(['1', '2']));
     var note = notes.addNote(argv.title,argv.body);
     if (note) {
         console.log('Note created');

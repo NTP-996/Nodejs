@@ -1,7 +1,6 @@
 {
   "name": "notes-note",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,10 @@
   "dependencies": {
     "lodash": "^4.17.5",
     "yargs": "^11.0.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0"
   }
 }
